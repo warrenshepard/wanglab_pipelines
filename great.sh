@@ -228,3 +228,5 @@ Rscript ${folder}/PBS/${mode}_${ass_rule}_GREAT.R
 
 EOF
 sbatch "${folder}/PBS/${mode}_${ass_rule}_GREAT.pbs"
+
+echo "done"
